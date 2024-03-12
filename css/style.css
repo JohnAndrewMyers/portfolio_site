@@ -30,6 +30,19 @@
 
   /* nav styles */
 
+  header{
+    background-color: #EEDA92;
+    width: 15%;
+    height: 100vh;
+  }
+
+  header ul li a{
+    color: #9B9D57;
+    text-decoration: none;
+    font-size: 40px;
+  
+  }
+
   #navstyles{
     background-color: #EEDA92;
     color: #9B9D57;
