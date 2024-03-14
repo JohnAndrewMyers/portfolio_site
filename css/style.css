@@ -70,7 +70,7 @@ table {
     color: #9B9D57;
     text-decoration: none;
     font-size: 40px;
-  
+    
   }
 
   #navstyles{
@@ -104,7 +104,27 @@ table {
     height: auto;
   }
 
-  /* sidenav styles */
+  .hometext{
+    text-align: center;
+    margin: 5%;
+  }
+
+  .welcome{
+    font-size: 216px;
+  }
+
+  .subtitle{
+    font-size: 115px;
+  }
+
+  /* Contact styles */
+
+  .bodytext{
+    margin-left: 5%;
+    margin-right: 50%;
+  }
+
+  /* Green sidenav styles */
 
   .sidepanel  {
     width: 0;
@@ -148,7 +168,59 @@ table {
   }
   
   .openbtn:hover {
-    background-color:#9B9D57;
+   
+  }
+
+  img#nav_logo{
+    width: 100px;
+    height: auto;
+  }
+
+  /* Whitepage sidenav styles */
+
+  .sidepanel_white  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #EEDA92;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel_white a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #9B9D57;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel_white a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel_white .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn_white {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+   
   }
 
   img#nav_logo{
