@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=League+Spartan:wght@100..900&display=swap')
+
 /* Start writing your CSS */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -228,6 +230,49 @@ table {
     height: auto;
   }
 
+  /* Main Styles */
+
+  section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .horizontallayout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 90vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .pageheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 90%;
+    position: absolute;
+    top: 5%;
+  }
+
+  .pageheader h2{
+    position: absolute;
+    right: 15%;
+    top: -135%;
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    transform: rotate(4deg);
+  }
+
   /* contact styles */
 
   #contactbody{
@@ -235,6 +280,30 @@ table {
     color: #EEDA92;
   }
 
+  /* Tooltip */
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #D9D9D9;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 
   /* Media Queries */
