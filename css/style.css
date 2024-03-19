@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=League+Spartan:wght@100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=League+Spartan:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=GFS+Didot&display=swap');
 
 /* Start writing your CSS */
 
@@ -61,6 +63,7 @@ table {
     justify-content: flex-start;
     flex-direction: column;
     padding: 2%;
+    font-family: "League Spartan", sans-serif;
   }
 
   header img{
@@ -77,7 +80,7 @@ table {
 
   #navstyles{
     background-color: #EEDA92;
-    color: #9B9D57;
+    color: #9B9D57; 
   }
 
   .sidebar {
@@ -112,11 +115,14 @@ table {
   }
 
   .welcome{
+    font-family: "GFS Didot", serif;
     font-size: 216px;
   }
+  
 
   .subtitle{
     font-size: 115px;
+    font-family: "League Spartan", sans-serif;
   }
 
   /* Contact styles */
@@ -124,6 +130,42 @@ table {
   .bodytext{
     margin-left: 5%;
     margin-right: 50%;
+    font-family: "GFS Didot", serif;
+  }
+  
+  .list{
+    margin-left: 5%;
+    margin-right: 50%;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  form{
+    font-family: "League Spartan", sans-serif;
+    
+  }
+
+  input{
+    font-family: "League Spartan", sans-serif;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    margin: 3%;
+  }
+
+ textarea{
+  font-family: "League Spartan", sans-serif;
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    margin: 3%;
+  }
+
+  #mySidepanel {
+    font-family: "League Spartan", sans-serif;
   }
 
   /* Green sidenav styles */
@@ -240,6 +282,7 @@ table {
     width: 100vw;
     margin: 0 auto;
     flex-wrap: wrap;
+
   }
 
   .horizontallayout{
@@ -279,6 +322,48 @@ table {
     background-color: #9B9D57;
     color: #EEDA92;
   }
+ 
+  /* porfolio styles */
+
+  img#gig{
+    width: 450px;
+    height: auto;
+ }
+
+ img#gameover{
+  width: 450px;
+  height: auto;
+}
+
+img#snapshot1{
+  width: auto;
+  height: 450px;
+}
+
+img#snapshot2{
+  width: auto;
+  height: 450px;
+}
+
+img#childhood{
+  width: auto;
+  height: 450px;
+}
+
+img#soldiers{
+  width: auto;
+  height: 450px;
+}
+
+img#favs{
+  width: auto;
+  height: 450px;
+}
+
+img#bunnies{
+  width: auto;
+  height: 450px;
+}
 
   /* Tooltip */
 
@@ -296,7 +381,10 @@ table {
     text-align: center;
     padding: 5px 0;
   
+
+  
     /* Position the tooltip */
+
     position: absolute;
     z-index: 1;
   }
