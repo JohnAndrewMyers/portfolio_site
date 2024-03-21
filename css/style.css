@@ -365,6 +365,16 @@ img#bunnies{
   height: 450px;
 }
 
+img#spraypaint{
+  width: auto;
+  height: 450px;
+}
+
+img#maritime{
+  width: auto;
+  height: 450px;
+}
+
   /* Tooltip */
 
   .tooltip {
